@@ -1,0 +1,150 @@
+.main-section {
+  height: 100vh;
+}
+
+.main-section .inner {
+  height: 100vh;
+  background: red;
+  width: 100%;
+  -webkit-clip-path: polygon(35% 100%, 100% 50%, 100% 100%);
+          clip-path: polygon(35% 100%, 100% 50%, 100% 100%);
+}
+
+.main-section .content {
+  margin-top: 200px;
+  padding: 70px;
+  position: absolute;
+}
+
+.main-section .titulo {
+  font-size: 75px;
+}
+
+.main-section .legenda {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.main-section .btnred {
+  background-color: #cf2a1f;
+  height: 60px;
+  width: 400px;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.main-section .img {
+  position: absolute;
+  z-index: 100;
+  right: 275px;
+  bottom: 0;
+  height: 550px;
+  width: 350px;
+}
+
+.slides {
+  color: white;
+  background-size: auto;
+}
+
+.slides .perg {
+  font-size: 75px;
+  margin-bottom: 60px;
+}
+
+.slides .info {
+  font-size: 30px;
+}
+
+.slides .slide1 {
+  background-image: url("@/static/1.jpeg");
+  height: 380px;
+  padding: 70px;
+}
+
+.slides .slide2 {
+  background-image: url("@/static/2.jpeg");
+  height: 380px;
+  text-align: right;
+  padding: 70px;
+}
+
+.slides .slide3 {
+  background-image: url("@/static/3.jpeg");
+  height: 380px;
+  padding: 70px;
+}
+
+.footer {
+  color: white;
+  height: 350px;
+  width: 100%;
+  background-color: #0E0E0F;
+}
+
+.footer #linha {
+  height: 10px;
+  width: 100%;
+  background-color: #C22A1F;
+}
+
+.footer #text_socials {
+  text-align: center;
+  margin-right: 600px;
+  font-size: 12px;
+}
+
+.footer .footer-left {
+  padding: 15px;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.footer .footer-left .img-logo {
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.footer .footer-left .icons {
+  height: 55px;
+  margin-right: 10px;
+  -webkit-filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(336deg) brightness(108%) contrast(102%);
+          filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(336deg) brightness(108%) contrast(102%);
+}
+
+.footer .footer-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.footer .footer-right .titulo {
+  font-size: 45px;
+}
+
+.footer .footer-right .dados {
+  font-size: 20px;
+  color: grey;
+}
+
+.footer .footer-right .box {
+  font-size: 20px;
+  color: grey;
+}
+
+.footer .footer-right .right-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.footer .footer-right .right-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+/*# sourceMappingURL=Home.css.map */
